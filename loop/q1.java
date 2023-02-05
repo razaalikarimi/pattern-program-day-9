@@ -11,12 +11,7 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
-
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (i == 0 || j == 0 || i == (n - 1) / 2 || j == n - 1 || i == n - 1) {
           System.out.print("*");
@@ -24,12 +19,8 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
 
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (i == 0 || j == 0 || i == n - 1) {
           System.out.print("*");
@@ -37,12 +28,8 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
 
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (i == 0 || j == 0 || j == n - 1 || i == n - 1) {
           System.out.print("*");
@@ -50,25 +37,16 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
-
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
-        if (i == 0 || j == 0 || i == (n - 1) / 2 || i == n - 1) {
+        if (i == 0 || j == 0 || j == n - 1 || i == n - 1) {
           System.out.print("*");
         } else {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
 
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (i == 0 || j == 0 || i == (n - 1) / 2) {
           System.out.print("*");
@@ -76,12 +54,8 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
 
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (
           i == 0 ||
@@ -97,12 +71,8 @@ class q1 {
           System.out.print(" ");
         }
       }
-      System.out.println();
-    }
-    System.out.print((" ") + '\t');
-    System.out.println("  ");
 
-    for (int i = 0; i < n; i++) {
+      System.out.print(" ");
       for (int j = 0; j < n; j++) {
         if (j == 0 || i == (n - 1) / 2 || j == n - 1) {
           System.out.print("*");
